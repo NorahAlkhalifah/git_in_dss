@@ -3,20 +3,12 @@
   "color": "#087ABF",
   "items": [
     {
-      "objectId": "t_shirt_data",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "compute_t_shirt_data_by_tshirt_category",
       "objectType": "RECIPE"
     },
     {
       "objectId": "t_shirt_data_by_tshirt_category",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_t_shirt_data",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
