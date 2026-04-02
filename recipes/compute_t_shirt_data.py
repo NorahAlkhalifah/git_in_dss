@@ -2,6 +2,8 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+from io import BytesIO
+
 
 # Read recipe inputs
 Input_data = dataiku.Folder("SKNIUU9i")
