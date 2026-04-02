@@ -123,9 +123,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "1",
-        "column": "test",
-        "errorColumn": ""
+        "expression": "1"
       },
       "alwaysShowComment": false
     }
