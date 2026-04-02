@@ -37,6 +37,10 @@
       {
         "d": true,
         "name": "total"
+      },
+      {
+        "d": true,
+        "name": "test"
       }
     ]
   },
@@ -119,8 +123,8 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "",
-        "column": "formula_result",
+        "expression": "1",
+        "column": "test",
         "errorColumn": ""
       },
       "alwaysShowComment": false
@@ -159,6 +163,7 @@
     "order_date": 120,
     "total": 134,
     "order_date_parsed": 183,
+    "test": 100,
     "tshirt_quantity": 128,
     "tshirt_price": 134,
     "customer_id": 100,
