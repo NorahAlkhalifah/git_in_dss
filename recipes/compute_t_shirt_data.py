@@ -8,11 +8,11 @@ Input_data = dataiku.Folder("SKNIUU9i")
 Input_data_info = Input_data.get_info()
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-file_paths = Input_Datasets.list_paths_in_partition()
+file_paths = Input_data.list_paths_in_partition()
 first_file_path = file_paths[0]
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-with Input_Datasets.get_download_stream(first_file_path) as f:
+with Input_data.get_download_stream(first_file_path) as f:
     data = f.read()
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
