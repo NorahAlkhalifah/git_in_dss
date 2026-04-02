@@ -37,6 +37,10 @@
       {
         "d": true,
         "name": "total"
+      },
+      {
+        "d": true,
+        "name": "test"
       }
     ]
   },
@@ -112,6 +116,18 @@
         "type": "LongMeaning"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "\u0027test\u0027",
+        "column": "test",
+        "errorColumn": ""
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -147,6 +163,7 @@
     "order_date": 120,
     "total": 134,
     "order_date_parsed": 183,
+    "test": 100,
     "tshirt_quantity": 128,
     "tshirt_price": 134,
     "customer_id": 100,
